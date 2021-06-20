@@ -13,3 +13,8 @@ This "CT-Controller"-plugin was for Outbreak, an german community (RIP). It cont
 - sm_vertmpct
 - sm_ctban
 - sm_ctunban
+
+## Installation
+Add databases entry `ct_controller` to your databases.cfg
+
+Tables should created automatically.
