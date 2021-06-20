@@ -1,0 +1,42 @@
+"Commands"
+{
+	"CT Ban" 
+	{
+		"Spieler CT bannen"
+		{
+			"cmd"			"sm_ctban #1 #2 #3"
+			"admin"			"sm_kick"
+			"execute"		"player"
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Spieler waehlen"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"Dauer in Runden"
+			
+				"1""0"
+				"2""5"
+				"3""10"
+				"4""15"
+				"5""30"
+				"6""60"
+				"7""100"
+			}
+			"3"
+			{
+				"type" 		"list"
+				"title"		"Grund"
+					"1""Stimme nicht genehmigt"
+					"2""Mehrere Freekills"
+					"3""Mehrmaliger Regelverstoss"
+					"4""Waffenschiebung"
+					"5""Kein Headset"
+					"6""Mehrmaliger Regelverstoss"
+			}
+		}
+	}
+}
